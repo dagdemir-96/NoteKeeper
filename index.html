@@ -1,154 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NoteKeeper</title>
-  <link rel="stylesheet" href="style.css">
-  <link
+    <link rel="stylesheet" href="style.css" />
+    <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-</head>
-<body>
-  <div class="wrapper">
-    <li class="add-box">
-      <div class="icon">
-        <i class="bx bx-plus"></i>
-      </div>
-      <p>Add new note</p>
-    </li>
-    <!-- note -->
- <li class="note">
-  <!-- details -->
-   <div class="details">
-    <h2 class="title">Title</h2>
-    <p class="description">Description</p>
-   </div>
-   <!-- bottom -->
-    <div class="bottom">
-      <span id="date">May 14,2025</span>
-      <div class="settings">
-        <i class="bx bx-dots-horizontal-rounded"></i>
-        <ul class="menu">
-          <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
-          <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
-
-        </ul>
-      </div>
+  </head>
+  <body>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon">
+          <i class="bx bx-plus"></i>
+        </div>
+        <p>Add new note</p>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <h2 class="title">Title</h2>
+          <p class="description">Description</p>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <span id="date">May 14,2025</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
+              <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <h2 class="title">Title</h2>
+          <p class="description">Description</p>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <span id="date">May 14,2025</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
+              <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <h2 class="title">Title</h2>
+          <p class="description">Description</p>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <span id="date">May 14,2025</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
+              <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <h2 class="title">Title</h2>
+          <p class="description">Description</p>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <span id="date">May 14,2025</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
+              <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- note -->
+      <li class="note">
+        <!-- details -->
+        <div class="details">
+          <h2 class="title">Title</h2>
+          <p class="description">Description</p>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+          <span id="date">May 14,2025</span>
+          <div class="settings">
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            <ul class="menu">
+              <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
+              <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
+            </ul>
+          </div>
+        </div>
+      </li>
     </div>
- </li>
-  <!-- note -->
-  <li class="note">
-    <!-- details -->
-     <div class="details">
-      <h2 class="title">Title</h2>
-      <p class="description">Description</p>
-     </div>
-     <!-- bottom -->
-      <div class="bottom">
-        <span id="date">May 14,2025</span>
-        <div class="settings">
-          <i class="bx bx-dots-horizontal-rounded"></i>
-          <ul class="menu">
-            <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
-            <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
-  
-          </ul>
+    <!--popup (add new note alannda yeni bir not eklendiğinde açılacak olan popup için ) -->
+    <!-- * Popup -->
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <!-- Header -->
+          <header>
+            <h1>New Note</h1>
+            <i id="close-btn" class="bx bx-x"></i>
+          </header>
+          <!-- Form -->
+          <form>
+            <!-- Title -->
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" />
+            </div>
+            <!-- Description -->
+            <div class="row description">
+              <label>Description</label>
+              <textarea></textarea>
+            </div>
+
+            <!-- Button -->
+            <button type="submit">Add Note</button>
+          </form>
         </div>
       </div>
-   </li>
-    <!-- note -->
- <li class="note">
-  <!-- details -->
-   <div class="details">
-    <h2 class="title">Title</h2>
-    <p class="description">Description</p>
-   </div>
-   <!-- bottom -->
-    <div class="bottom">
-      <span id="date">May 14,2025</span>
-      <div class="settings">
-        <i class="bx bx-dots-horizontal-rounded"></i>
-        <ul class="menu">
-          <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
-          <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
-
-        </ul>
-      </div>
-    </div>
- </li>
-  <!-- note -->
-  <li class="note">
-    <!-- details -->
-     <div class="details">
-      <h2 class="title">Title</h2>
-      <p class="description">Description</p>
-     </div>
-     <!-- bottom -->
-      <div class="bottom">
-        <span id="date">May 14,2025</span>
-        <div class="settings">
-          <i class="bx bx-dots-horizontal-rounded"></i>
-          <ul class="menu">
-            <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
-            <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
-  
-          </ul>
-        </div>
-      </div>
-   </li>
-    <!-- note -->
- <li class="note">
-  <!-- details -->
-   <div class="details">
-    <h2 class="title">Title</h2>
-    <p class="description">Description</p>
-   </div>
-   <!-- bottom -->
-    <div class="bottom">
-      <span id="date">May 14,2025</span>
-      <div class="settings">
-        <i class="bx bx-dots-horizontal-rounded"></i>
-        <ul class="menu">
-          <li id="edit-btn"><i class="bx bx-edit"></i> Düzenle</li>
-          <li id="delete-btn"><i class="bx bx-trash-alt"></i> Sil</li>
-
-        </ul>
-      </div>
-    </div>
- </li>
-  </div>  
-<!--popup (add new note alannda yeni bir not eklendiğinde açılacak olan popup için ) -->
-<!-- * Popup -->
-<div class="popup-box">
-  <div class="popup">
-    <div class="content">
-      <!-- Header -->
-      <header>
-        <h1>New Note</h1>
-        <i id="close-btn" class="bx bx-x"></i>
-      </header>
-   <!-- Form -->
-   <form>
-    <!-- Title -->
-    <div class="row title">
-      <label>Title</label>
-      <input type="text" />
-    </div>
-    <!-- Description -->
-    <div class="row description">
-      <label>Description</label>
-      <textarea></textarea>
     </div>
 
-    <!-- Button -->
-    <button>Add Note</button>
-  </form>
-    </div>
-  </div>
-</div>
- 
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
