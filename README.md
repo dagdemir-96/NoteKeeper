@@ -14,7 +14,12 @@ NoteKeeper, HTML, CSS ve JavaScript’in tüm olanaklarının kullanıldığı, 
 📸 Projeden Görsel
 Buraya bir ekran görüntüsü veya tanıtım GIF’i ekleyebilirsiniz (örnek: assets/notekeeper-demo.gif)
 🚀 Kullanılan Teknolojiler
-html css javascript
+
+<div align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+</div>
 
 Not: Bu proje, JavaScript öğrenme sürecimde edindiğim bilgileri pekiştirmek amacıyla oluşturulmuş bir eğitim çalışmasıdır. Ticari kullanım için tasarlanmamıştır.
 📥 Bu projeyi klonlayın:
